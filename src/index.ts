@@ -1,4 +1,4 @@
-import { 联合转元组, 错误 } from '@lsby/ts_type_fun'
+import { 联合转元组, 错误 } from '@lsby/ts-type-func'
 import * as R from 'ramda'
 import * as XLSX from 'xlsx'
 
