@@ -2,6 +2,8 @@
   "printWidth": 120,
   "trailingComma": "all",
   "semi": false,
+  "endOfLine": "crlf",
   "singleQuote": true,
-  "vueIndentScriptAndStyle": true
+  "plugins": ["prettier-plugin-packagejson", "@ianvs/prettier-plugin-sort-imports"],
+  "importOrder": ["<BUILTIN_MODULES>", "<THIRD_PARTY_MODULES>", "^@([^/]+?)/(.*)$", "^[./]"]
 }
